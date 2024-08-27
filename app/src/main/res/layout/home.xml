@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="@string/home_title"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:background="#FF0000"
+        android:text="@string/home_subtitle"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginBottom="10sp">
+
+        <ImageView
+            android:layout_width="203dp"
+            android:layout_height="225dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/f48fea1fc336b10b7d26f9244e366551"
+            android:contentDescription="@string/image_pikachu"
+            android:textAlignment="center" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="top"
+                android:text="@string/news_head"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="@string/news_pikachu"
+                android:textSize="12sp" />
+        </GridLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp">
+
+        <ImageView
+            android:layout_width="203dp"
+            android:layout_height="225dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/pato"
+            android:contentDescription="@string/image_pikachu"
+            android:textAlignment="center" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="top"
+                android:text="@string/news_head"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="191dp"
+                android:layout_height="196dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="@string/news_pato"
+                android:textSize="12sp" />
+        </GridLayout>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_secondscreen"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:background="#FF0101"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="@string/denuncia" />
+
+</LinearLayout>

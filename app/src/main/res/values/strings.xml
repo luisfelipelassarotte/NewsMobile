@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">tassio_chalenge</string>
+    <string name="home_title">CBB</string>
+    <string name="home_subtitle">Local de Desinformação</string>
+    <string name="btn_secondscreen">Aperte aqui</string>
+    <string name="image_pikachu">Foto do Pikachu</string>
+    <string name="news_head">Noticia de ultima hora</string>
+    <string name="news_pikachu">Agiota pikachu, fugiu da prisão.</string>
+    <string name="news_pato">Pato mafioso, indiciado por lavagem de dinheiro.</string>
+    <string name="denuncia">Denuncie</string>
+    <string name="detetiveNome">Detetive Xaropinho</string>
+    <string name="detetiveTelefone">Contato: (99) 999-123</string>
+    <string name="detetiveEdereco">Endereço: Rua Baker, 221B</string>
+    <string name="detetiveEmail">Email: xarope@denuncia.gov</string>
+    <string name="detetiveTexto">Melhor detetive da vila sesamo!</string>
+    <string name="detetiveNome2">Detetive Sapon</string>
+    <string name="detetiveTelefone2">Contato: (99) 456-123</string>
+    <string name="detetiveEdereco2">Endereço: Rua naLagoas, 2561B</string>
+    <string name="detetiveEmail2">Email: sapon@denuncia.gov</string>
+    <string name="detetiveTexto2">Melhor detetie que lava o pé!</string>
+</resources>
